@@ -3,6 +3,8 @@ from app.agents.retrieval_agent import retrieval_agent
 from app.agents.critique_agent import critique_agent
 from app.agents.synthesis_agent import synthesis_agent
 from app.core.logger import logger
+from app.core.execution_logger import log_execution
+import uuid
 
 
 def orchestrator(query: str):
@@ -49,14 +51,16 @@ The orchestrator:
         retrieval_output,
         critique_output
     )
+    job_id = str(uuid.uuid4())
 
     return {
-        "routing_log": routing_log,
-        "decomposition": decomposition_output,
-        "retrieval": retrieval_output,
-        "critique": critique_output,
-        "final_answer": final_output
-    }
+    "job_id": job_id,
+    "routing_log": routing_log,
+    "decomposition": decomposition_output,
+    "retrieval": retrieval_output,
+    "critique": critique_output,
+    "final_answer": final_output
+}
     logger.info(
     "routing_decision",
     selected_agents=selected_agents
@@ -66,3 +70,4 @@ The orchestrator:
     "agent_completed",
     agent="retrieval_agent"
     )
+    
