@@ -2,6 +2,7 @@ from app.agents.decomposition_agent import decomposition_agent
 from app.agents.retrieval_agent import retrieval_agent
 from app.agents.critique_agent import critique_agent
 from app.agents.synthesis_agent import synthesis_agent
+from app.core.logger import logger
 
 
 def orchestrator(query: str):
@@ -56,3 +57,12 @@ The orchestrator:
         "critique": critique_output,
         "final_answer": final_output
     }
+    logger.info(
+    "routing_decision",
+    selected_agents=selected_agents
+    )
+
+    logger.info(
+    "agent_completed",
+    agent="retrieval_agent"
+    )
