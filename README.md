@@ -63,6 +63,7 @@ The orchestrator dynamically decides:
 All agent communication happens through a shared state object.
 
 ---
+<img width="1269" height="275" alt="Screenshot 2026-05-09 173609" src="https://github.com/user-attachments/assets/4fe14e19-fe76-4306-8018-c7c2736b14fd" />
 
 # Tool Calling System
 
@@ -251,6 +252,7 @@ CREATE DATABASE multiagent;
 ```
 
 ---
+<img width="1914" height="1015" alt="Screenshot 2026-05-09 174227" src="https://github.com/user-attachments/assets/dd10bd9a-56ee-46da-a4cd-58d0380e55e3" />
 
 # Create Database Tables
 
@@ -287,6 +289,7 @@ docker compose up --build
 ```
 
 ---
+<img width="1510" height="195" alt="Screenshot 2026-05-09 180056" src="https://github.com/user-attachments/assets/e4678bea-c65a-4fec-83ca-3b9bb876b8ef" />
 
 # Example Query
 
@@ -345,6 +348,15 @@ All final integration, testing, and debugging decisions were validated manually.
 ---
 
 # Some Screenshot
+<img width="1977" height="1187" alt="Screenshot 2026-05-09 173343" src="https://github.com/user-attachments/assets/10af801c-6e66-48c6-aca1-b9958f54e2c6" />
+<img width="1954" height="1184" alt="Screenshot 2026-05-09 173408" src="https://github.com/user-attachments/assets/1e1b9e81-af50-4537-9a0b-7bf4607f34ef" />
+<img width="1970" height="1183" alt="Screenshot 2026-05-09 173428" src="https://github.com/user-attachments/assets/13cf5c2d-4ce2-4b04-92b7-a3d6c0dc5c2f" />
+<img width="1970" height="1188" alt="Screenshot 2026-05-09 173450" src="https://github.com/user-attachments/assets/710ddccb-b220-4584-9995-a0c4c30856ce" />
+<img width="1994" height="1195" alt="Screenshot 2026-05-09 173505" src="https://github.com/user-attachments/assets/02a97486-9dfc-4116-bd2c-3bdc194f6546" />
+<img width="1972" height="1129" alt="Screenshot 2026-05-09 173540" src="https://github.com/user-attachments/assets/91c9ed55-91b7-4aaa-a955-62cddd96907d" />
+<img width="1967" height="1114" alt="Screenshot 2026-05-09 173553" src="https://github.com/user-attachments/assets/2a1273bb-e34b-4375-ad3d-f9718e8aa70a" />
+
+
 
 # Author
 
