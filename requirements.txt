@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+langchain
+langgraph
+langchain-groq
+sqlalchemy
+psycopg2-binary
+asyncpg
+chromadb
+python-dotenv
+sse-starlette
+structlog
+pydantic
+tiktoken
+httpx
